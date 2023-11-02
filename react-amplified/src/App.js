@@ -10,8 +10,8 @@ import '@aws-amplify/ui-react/styles.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
-import Resume from './pages/resume';
-import Halloween from './pages/halloween';
+import Experience from './pages/experience';
+import Blog from './pages/blog';
 Amplify.configure(awsExports);
 
 
@@ -21,8 +21,8 @@ const App = () => {
         <Navbar />
         <Routes>
             <Route exact path='/' element={<Home />} />
-            <Route path='/resume' element={<Resume />} />
-            <Route path='/halloween' element={<Halloween />} />
+            <Route path='/experience' element={<Experience />} />
+            <Route path='/blog' element={<Blog />} />
         </Routes>
     </Router>
 );

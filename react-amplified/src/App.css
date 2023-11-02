@@ -1,6 +1,6 @@
 :root {
-  --main: rgb(255, 102, 0);
-  --main2: rgb(255, 115, 0);
+  --main: rgb(0, 0, 0);
+  --main2: rgb(0, 0, 0);
 }
 
 @keyframes App-logo-spin {
@@ -18,9 +18,7 @@
 h1{
   color: var(--main);
   text-align: center;
-  float: left;
   margin: auto;
-  width: 40%;
 }
 
 .imgCon{
@@ -46,7 +44,7 @@ h1{
   width: 40%;
   padding: 10px;
   color: var(--main2);
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .mainimg{
